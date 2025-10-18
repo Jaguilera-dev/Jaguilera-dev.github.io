@@ -653,7 +653,7 @@
                             <p>Uriangato, Gto.<br>Oficina: 445 457 7468 + 106</p>
                         </div>
                     </div>
-                </div>
+                
             </section>
         </div>
     </main>
