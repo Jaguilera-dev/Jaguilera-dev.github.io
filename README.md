@@ -479,7 +479,7 @@
     <!-- Sidebar -->
     <nav class="sidebar" id="sidebar">
         <div class="profile-section">
-            <img src="[https://placehold.co/400x400/3b82f6/ffffff?text=Dr.+Perfil]https://drive.google.com/file/d/13JKwLIbI1Nvk8l3geEZ3UcTAHJt5Rv3f/view?usp=sharing" alt="Foto de perfil profesional" class="profile-photo">
+            <img src="https://drive.google.com/file/d/13JKwLIbI1Nvk8l3geEZ3UcTAHJt5Rv3f/view?usp=sharing" alt="Foto de perfil profesional" class="profile-photo">
             <h1 class="profile-name">Dr. José Gabriel Aguilera González</h1>
             <p class="profile-title">Doctor en Sistemas Computacionales</p>
             <p class="profile-subtitle">Especialista en Inteligencia Artificial</p>
