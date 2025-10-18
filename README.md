@@ -1,76 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Gabriel Aguilera - AI Specialist</title>
-    <meta name="description" content="Professional portfolio of Dr. Gabriel Aguielra, Doctor in Computer Systems specializing in Artificial Intelligence.">
+    <title>Dr. [Tu Nombre] - Especialista en Inteligencia Artificial</title>
+    <meta name="description" content="Portfolio profesional del Dr. [Tu Nombre], Doctor en Sistemas Computacionales especializado en Inteligencia Artificial">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
     <style>
+        :root {
+            --primary-color: #3b82f6;
+            --primary-dark: #1d4ed8;
+            --secondary-color: #64748b;
+            --background-dark: #0f172a;
+            --sidebar-dark: #1e293b;
+            --content-dark: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --accent-blue: #60a5fa;
+            --border-color: #475569;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --border-radius: 12px;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        :root {
-            --primary-color: #3b82f6;
-            --primary-dark: #1d4ed8;
-            --background-dark: #1e1e2e;
-            --sidebar-dark: #27273a;
-            --text-primary: #f1f5f9;
-            --text-secondary: #cbd5e1;
-            --accent-color: #60a5fa;
-            --border-radius: 8px;
-            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            --transition: all 0.3s ease;
-        }
-
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--text-primary);
             background-color: var(--background-dark);
-            background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M30,40 H70 V60 H30 V40 Z M40,30 V70 M60,30 V70 M30,30 L70,70 M30,70 L70,30" stroke="%233b82f6" stroke-width="1" stroke-opacity="0.1" fill="none"/></svg>');
-            background-size: 200px 200px;
+            color: var(--text-primary);
+            line-height: 1.6;
             overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(59, 130, 246, 0.06) 0%, transparent 50%);
+            background-attachment: fixed;
         }
 
-        /* Sidebar Styles */
+        /* Neural Network Background Pattern */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%233b82f6' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3Cpath d='m30 26c2.2091 0 4 1.7909 4 4s-1.7909 4-4 4-4-1.7909-4-4 1.7909-4 4-4zm-15 15c1.1046 0 2 .8954 2 2s-.8954 2-2 2-2-.8954-2-2 .8954-2 2-2zm30 0c1.1046 0 2 .8954 2 2s-.8954 2-2 2-2-.8954-2-2 .8954-2 2-2zm-15-30c1.1046 0 2 .8954 2 2s-.8954 2-2 2-2-.8954-2-2 .8954-2 2-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            z-index: -2;
+        }
+
+        /* SIDEBAR STYLES */
         .sidebar {
             position: fixed;
             left: 0;
             top: 0;
-            width: 300px;
+            width: 320px;
             height: 100vh;
-            background-color: var(--sidebar-dark);
-            padding: 2rem 1.5rem;
-            box-shadow: var(--shadow-lg);
+            background: linear-gradient(180deg, var(--sidebar-dark) 0%, #0f172a 100%);
+            border-right: 2px solid var(--border-color);
+            box-shadow: 4px 0 24px var(--shadow-color);
+            padding: 2rem 0;
+            overflow-y: auto;
             z-index: 1000;
             transition: var(--transition);
-            overflow-y: auto;
         }
 
-        .profile-header {
+        .sidebar::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .sidebar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        .profile-section {
+            padding: 0 2rem 2rem;
             text-align: center;
+            border-bottom: 1px solid var(--border-color);
             margin-bottom: 2rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            padding-bottom: 1.5rem;
         }
 
         .profile-photo {
-            width: 150px;
-            height: 150px;
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
-            margin: 0 auto 1rem;
             border: 4px solid var(--primary-color);
-            box-shadow: var(--shadow);
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3);
             transition: var(--transition);
+            object-fit: cover;
         }
 
         .profile-photo:hover {
-            transform: scale(1.03);
-            box-shadow: var(--shadow-lg);
+            transform: scale(1.05);
+            box-shadow: 0 12px 48px rgba(59, 130, 246, 0.4);
         }
 
         .profile-name {
@@ -83,11 +118,19 @@
         .profile-title {
             font-size: 1rem;
             font-weight: 400;
-            color: var(--text-secondary);
+            color: var(--accent-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-subtitle {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            font-weight: 300;
         }
 
         .nav-menu {
             list-style: none;
+            padding: 0 1rem;
         }
 
         .nav-item {
@@ -97,134 +140,227 @@
         .nav-link {
             display: flex;
             align-items: center;
-            padding: 0.75rem 1rem;
+            padding: 1rem 1.5rem;
             color: var(--text-secondary);
             text-decoration: none;
             border-radius: var(--border-radius);
             transition: var(--transition);
             font-weight: 500;
             position: relative;
+            overflow: hidden;
+        }
+
+        .nav-link::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-dark));
+            transition: var(--transition);
+            z-index: -1;
+        }
+
+        .nav-link:hover::before,
+        .nav-link.active::before {
+            width: 100%;
         }
 
         .nav-link:hover,
         .nav-link.active {
-            background-color: rgba(255, 255, 255, 0.1);
-            color: var(--accent-color);
-            transform: translateX(3px);
+            color: var(--text-primary);
+            transform: translateX(4px);
         }
 
         .nav-icon {
-            margin-right: 0.75rem;
-            font-size: 1.2rem;
+            font-size: 1.25rem;
+            margin-right: 1rem;
+            min-width: 24px;
         }
 
-        /* Main Content */
+        /* MAIN CONTENT STYLES */
         .main-content {
-            margin-left: 300px;
+            margin-left: 320px;
             min-height: 100vh;
-            transition: var(--transition);
-            padding: 2rem;
+            background: transparent;
+            position: relative;
         }
 
-        /* Content Sections */
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem;
+            position: relative;
+        }
+
         .content-section {
-            background-color: rgba(39, 39, 58, 0.7);
-            padding: 2rem;
-            margin-bottom: 2rem;
+            background: rgba(51, 65, 85, 0.4);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(71, 85, 105, 0.3);
             border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
             transition: var(--transition);
-            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-blue));
         }
 
         .content-section:hover {
-            transform: translateY(-3px);
-            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+            border-color: rgba(96, 165, 250, 0.3);
         }
 
         .section-title {
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 1.5rem;
             color: var(--text-primary);
             position: relative;
-            padding-bottom: 0.5rem;
+            display: inline-block;
         }
 
         .section-title::after {
             content: "";
             position: absolute;
-            bottom: 0;
+            bottom: -8px;
             left: 0;
-            width: 50px;
+            width: 60px;
             height: 3px;
             background: var(--primary-color);
+            border-radius: 2px;
         }
 
         .section-text {
-            font-size: 1.1rem;
+            font-size: 1.125rem;
             color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .highlight-text {
+            color: var(--accent-blue);
+            font-weight: 500;
+        }
+
+        /* Research Areas Grid */
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .research-card {
+            background: rgba(30, 41, 59, 0.6);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .research-card:hover {
+            background: rgba(59, 130, 246, 0.1);
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
+        }
+
+        .research-card h3 {
+            color: var(--accent-blue);
             margin-bottom: 1rem;
+            font-size: 1.25rem;
+            font-weight: 600;
         }
 
         /* Publications List */
         .publications-list {
             list-style: none;
-            margin-top: 1.5rem;
+            margin-top: 2rem;
         }
 
         .publication-item {
+            background: rgba(30, 41, 59, 0.4);
+            padding: 2rem;
             margin-bottom: 1.5rem;
-            padding-left: 1.5rem;
-            position: relative;
-            border-left: 2px solid var(--primary-color);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-color);
+            transition: var(--transition);
         }
 
-        .publication-item::before {
-            content: "•";
-            position: absolute;
-            left: -0.75rem;
-            color: var(--primary-color);
-            font-size: 1.5rem;
+        .publication-item:hover {
+            background: rgba(30, 41, 59, 0.6);
+            transform: translateX(4px);
         }
 
         .publication-title {
+            font-size: 1.25rem;
             font-weight: 600;
             color: var(--text-primary);
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-authors {
+            color: var(--accent-blue);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
         }
 
         .publication-details {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
+            color: var(--text-muted);
             font-style: italic;
         }
 
-        /* Contact Info */
-        .contact-info {
+        /* Contact Grid */
+        .contact-grid {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
-            margin-top: 1.5rem;
+            margin-top: 2rem;
         }
 
         .contact-item {
             display: flex;
             align-items: center;
-            padding: 1rem;
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(30, 41, 59, 0.4);
+            padding: 1.5rem;
             border-radius: var(--border-radius);
             transition: var(--transition);
+            border: 1px solid transparent;
         }
 
         .contact-item:hover {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(59, 130, 246, 0.1);
+            border-color: var(--accent-blue);
         }
 
         .contact-icon {
+            font-size: 2rem;
             margin-right: 1rem;
-            font-size: 1.5rem;
             color: var(--primary-color);
+            min-width: 40px;
+        }
+
+        .contact-info h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+            font-weight: 600;
+        }
+
+        .contact-info p {
+            color: var(--text-secondary);
+            margin: 0;
         }
 
         /* Mobile Menu Toggle */
@@ -242,19 +378,37 @@
             border-radius: 50%;
             font-size: 1.5rem;
             cursor: pointer;
-            box-shadow: var(--shadow);
+            box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+            transition: var(--transition);
+        }
+
+        .mobile-toggle:hover {
+            background: var(--primary-dark);
+            transform: scale(1.05);
         }
 
         /* Responsive Design */
+        @media (max-width: 1024px) {
+            .content-container {
+                padding: 2rem;
+            }
+            
+            .content-section {
+                padding: 2rem;
+            }
+        }
+
         @media (max-width: 768px) {
             .mobile-toggle {
-                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             .sidebar {
                 transform: translateX(-100%);
                 width: 100%;
-                max-width: 300px;
+                max-width: 320px;
             }
 
             .sidebar.active {
@@ -263,15 +417,32 @@
 
             .main-content {
                 margin-left: 0;
-                padding: 1rem;
             }
 
-            .section-title {
-                font-size: 1.75rem;
+            .content-container {
+                padding: 1rem;
             }
 
             .content-section {
                 padding: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .research-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-photo {
+                width: 120px;
+                height: 120px;
+            }
+
+            .profile-name {
+                font-size: 1.25rem;
             }
         }
 
@@ -279,45 +450,64 @@
         html {
             scroll-behavior: smooth;
         }
+
+        /* Custom scrollbar for webkit browsers */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--background-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-dark);
+        }
     </style>
 </head>
 <body>
     <!-- Mobile Menu Toggle -->
-    <button class="mobile-toggle" id="mobileToggle">
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
         ☰
     </button>
 
-    <!-- Sidebar Navigation -->
+    <!-- Sidebar -->
     <nav class="sidebar" id="sidebar">
-        <div class="profile-header">
-            <img src="https://placehold.co/400x400/3b82f6/ffffff?text=Profile" alt="Profile Photo" class="profile-photo">
-            <h1 class="profile-name">Dr. [Your Name]</h1>
-            <p class="profile-title">Doctor in Computer Systems (AI Specialist)</p>
+        <div class="profile-section">
+            <img src="https://placehold.co/400x400/3b82f6/ffffff?text=Dr.+Perfil" alt="Foto de perfil profesional" class="profile-photo">
+            <h1 class="profile-name">Dr. [Tu Nombre]</h1>
+            <p class="profile-title">Doctor en Sistemas Computacionales</p>
+            <p class="profile-subtitle">Especialista en Inteligencia Artificial</p>
         </div>
         
         <ul class="nav-menu">
             <li class="nav-item">
-                <a href="#about" class="nav-link active">
+                <a href="#acerca-de" class="nav-link active">
                     <span class="nav-icon">👤</span>
-                    About
+                    Acerca de
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#research" class="nav-link">
+                <a href="#investigacion" class="nav-link">
                     <span class="nav-icon">🔬</span>
-                    Research
+                    Investigación
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#publications" class="nav-link">
+                <a href="#publicaciones" class="nav-link">
                     <span class="nav-icon">📚</span>
-                    Publications
+                    Publicaciones
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#contact" class="nav-link">
+                <a href="#contacto" class="nav-link">
                     <span class="nav-icon">📧</span>
-                    Contact
+                    Contacto
                 </a>
             </li>
         </ul>
@@ -325,96 +515,153 @@
 
     <!-- Main Content -->
     <main class="main-content">
-        <!-- About Section -->
-        <section id="about" class="content-section">
-            <h2 class="section-title">About</h2>
-            <p class="section-text">
-                I am a Doctor in Computer Systems with a specialization in Artificial Intelligence. My work focuses on advancing the field of AI through innovative research and practical applications. With a strong background in computer science and machine learning, I strive to develop solutions that address complex challenges in technology and society.
-            </p>
-            <p class="section-text">
-                My expertise includes deep learning, neural networks, natural language processing, and computer vision. I am passionate about contributing to the academic community through teaching, mentoring, and collaborative projects.
-            </p>
-        </section>
+        <div class="content-container">
+            <!-- Acerca de Section -->
+            <section id="acerca-de" class="content-section">
+                <h2 class="section-title">Acerca de</h2>
+                <p class="section-text">
+                    Soy <span class="highlight-text">Doctor en Sistemas Computacionales</span> con una especialización profunda en Inteligencia Artificial y más de [X años] de experiencia en investigación y desarrollo. Mi trabajo se enfoca en el avance del campo de la IA a través de investigación innovadora y aplicaciones prácticas que impacten positivamente en la sociedad.
+                </p>
+                <p class="section-text">
+                    Mi expertise abarca <span class="highlight-text">aprendizaje profundo, redes neuronales, procesamiento de lenguaje natural, visión por computadora y sistemas inteligentes</span>. Tengo una pasión particular por desarrollar algoritmos eficientes y explicables que puedan ser implementados en entornos del mundo real.
+                </p>
+                <p class="section-text">
+                    Como académico y investigador, estoy comprometido con la excelencia en la educación superior, la mentoría de nuevos investigadores y la colaboración interdisciplinaria para abordar los desafíos más complejos de nuestro tiempo mediante la inteligencia artificial.
+                </p>
+            </section>
 
-        <!-- Research Section -->
-        <section id="research" class="content-section">
-            <h2 class="section-title">Research</h2>
-            <p class="section-text">
-                My research interests lie at the intersection of Artificial Intelligence and real-world problem-solving. I am currently exploring the following areas:
-            </p>
-            <ul class="section-text">
-                <li>Development of efficient deep learning models for resource-constrained environments.</li>
-                <li>Applications of computer vision in healthcare and diagnostics.</li>
-                <li>Advancements in reinforcement learning for autonomous systems.</li>
-            </ul>
-            <p class="section-text">
-                My ongoing projects aim to bridge the gap between theoretical AI research and practical implementation, with a focus on scalability and societal impact.
-            </p>
-        </section>
+            <!-- Investigación Section -->
+            <section id="investigacion" class="content-section">
+                <h2 class="section-title">Investigación</h2>
+                <p class="section-text">
+                    Mis líneas de investigación se centran en el desarrollo de <span class="highlight-text">sistemas de IA robustos, éticos y eficientes</span>. Trabajo en la intersección entre la teoría computacional avanzada y sus aplicaciones prácticas en diversos dominios.
+                </p>
 
-        <!-- Publications Section -->
-        <section id="publications" class="content-section">
-            <h2 class="section-title">Publications</h2>
-            <p class="section-text">
-                Below is a selection of my key publications in the field of Artificial Intelligence and Computer Systems.
-            </p>
-            <ul class="publications-list">
-                <li class="publication-item">
-                    <div class="publication-title">"Efficient Neural Architectures for Edge Devices"</div>
-                    <div class="publication-details">Dr. [Your Name], et al. | Journal of Machine Learning Research | 2023</div>
-                </li>
-                <li class="publication-item">
-                    <div class="publication-title">"Bias Mitigation Strategies in Deep Learning Models"</div>
-                    <div class="publication-details">Dr. [Your Name], et al. | IEEE Transactions on AI | 2022</div>
-                </li>
-                <li class="publication-item">
-                    <div class="publication-title">"Computer Vision Applications in Medical Imaging"</div>
-                    <div class="publication-details">Dr. [Your Name], et al. | International Conference on AI in Healthcare | 2021</div>
-                </li>
-                <li class="publication-item">
-                    <div class="publication-title">"Reinforcement Learning for Autonomous Navigation"</div>
-                    <div class="publication-details">Dr. [Your Name], et al. | Robotics and AI Journal | 2020</div>
-                </li>
-            </ul>
-        </section>
+                <div class="research-grid">
+                    <div class="research-card">
+                        <h3>🧠 Aprendizaje Profundo Adaptativo</h3>
+                        <p>Desarrollo de arquitecturas de redes neuronales que se adaptan dinámicamente a nuevos dominios y tareas, con especial énfasis en la eficiencia computacional y la robustez.</p>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3>🔍 IA Explicable y Transparente</h3>
+                        <p>Investigación en métodos para hacer que los sistemas de IA sean interpretables y transparentes, especialmente en aplicaciones críticas como salud y seguridad.</p>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3>🏥 IA Aplicada en Salud Digital</h3>
+                        <p>Implementación de sistemas inteligentes para diagnóstico médico asistido, análisis de imágenes médicas y medicina personalizada usando técnicas avanzadas de ML.</p>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3>⚖️ Ética y Sesgo en IA</h3>
+                        <p>Investigación en la detección, mitigación y prevención de sesgos algorítmicos, así como el desarrollo de marcos éticos para el despliegue responsable de IA.</p>
+                    </div>
+                </div>
+            </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="content-section">
-            <h2 class="section-title">Contact</h2>
-            <p class="section-text">
-                I am open to collaboration on research projects, speaking engagements, and academic consultations. Please feel free to reach out through the following channels:
-            </p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <span class="contact-icon">📧</span>
-                    <div>
-                        <strong>Email:</strong> [your.email@example.com]
+            <!-- Publicaciones Section -->
+            <section id="publicaciones" class="content-section">
+                <h2 class="section-title">Publicaciones</h2>
+                <p class="section-text">
+                    A continuación se presenta una selección de mis contribuciones más relevantes al campo de la Inteligencia Artificial y Sistemas Computacionales, publicadas en revistas y conferencias de alto impacto.
+                </p>
+
+                <ul class="publications-list">
+                    <li class="publication-item">
+                        <div class="publication-title">Adaptive Neural Architectures for Edge Computing in Healthcare Applications</div>
+                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador A., Dr. Colaborador B.</div>
+                        <div class="publication-details">IEEE Transactions on Artificial Intelligence, Vol. 4, No. 3, pp. 245-260, 2023</div>
+                    </li>
+                    
+                    <li class="publication-item">
+                        <div class="publication-title">Explainable AI Framework for Medical Decision Support Systems</div>
+                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador C., Dr. Colaborador D.</div>
+                        <div class="publication-details">Nature Machine Intelligence, Vol. 5, pp. 123-138, 2023</div>
+                    </li>
+                    
+                    <li class="publication-item">
+                        <div class="publication-title">Bias Mitigation Strategies in Large Language Models: A Comprehensive Survey</div>
+                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador E.</div>
+                        <div class="publication-details">Journal of Machine Learning Research, Vol. 24, pp. 1-45, 2023</div>
+                    </li>
+                    
+                    <li class="publication-item">
+                        <div class="publication-title">Reinforcement Learning for Autonomous Medical Diagnosis: Challenges and Opportunities</div>
+                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador F., Dr. Colaborador G.</div>
+                        <div class="publication-details">Proceedings of AAAI Conference on Artificial Intelligence, pp. 8756-8763, 2022</div>
+                    </li>
+                    
+                    <li class="publication-item">
+                        <div class="publication-title">Federated Learning in Healthcare: Privacy-Preserving Collaborative AI</div>
+                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador H.</div>
+                        <div class="publication-details">ACM Computing Surveys, Vol. 55, No. 2, Article 37, 2022</div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Contacto Section -->
+            <section id="contacto" class="content-section">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-text">
+                    Estoy abierto a colaboraciones en proyectos de investigación, consultoría académica, participación en conferencias y oportunidades de mentoría. No dudes en contactarme para discutir posibles colaboraciones o intercambio académico.
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div class="contact-info">
+                            <h4>Correo Electrónico</h4>
+                            <p>[tu.email@universidad.edu]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">🏛️</span>
+                        <div class="contact-info">
+                            <h4>Institución</h4>
+                            <p>[Universidad/Centro de Investigación]<br>Departamento de [Tu Departamento]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">📖</span>
+                        <div class="contact-info">
+                            <h4>ResearchGate</h4>
+                            <p>researchgate.net/profile/[tu-perfil]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">🔗</span>
+                        <div class="contact-info">
+                            <h4>ORCID</h4>
+                            <p>orcid.org/[tu-orcid-id]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <div class="contact-info">
+                            <h4>LinkedIn Académico</h4>
+                            <p>linkedin.com/in/[tu-perfil-academico]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div class="contact-info">
+                            <h4>Ubicación</h4>
+                            <p>[Ciudad, País]<br>Oficina: [Número de oficina]</p>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-item">
-                    <span class="contact-icon">🏛️</span>
-                    <div>
-                        <strong>Institution:</strong> [Your University/Organization]
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">🔗</span>
-                    <div>
-                        <strong>LinkedIn:</strong> linkedin.com/in/[your-profile]
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <span class="contact-icon">📖</span>
-                    <div>
-                        <strong>ResearchGate:</strong> researchgate.net/profile/[your-profile]
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
     <script>
-        // Mobile menu toggle
+        // Mobile menu toggle functionality
         const mobileToggle = document.getElementById('mobileToggle');
         const sidebar = document.getElementById('sidebar');
         
@@ -446,14 +693,15 @@
                 // Add active class to clicked link
                 link.classList.add('active');
                 
-                // Get target section
+                // Get target section and scroll to it
                 const targetId = link.getAttribute('href');
                 const targetSection = document.querySelector(targetId);
                 
                 if (targetSection) {
-                    targetSection.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
+                    const offsetTop = targetSection.offsetTop - 20;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
                     });
                 }
                 
@@ -470,8 +718,8 @@
         
         const observerOptions = {
             root: null,
-            rootMargin: '-50% 0px -50% 0px',
-            threshold: 0
+            rootMargin: '-20% 0px -60% 0px',
+            threshold: 0.1
         };
         
         const observer = new IntersectionObserver((entries) => {
@@ -490,6 +738,15 @@
         
         sections.forEach(section => {
             observer.observe(section);
+        });
+
+        // Add loading animation for better UX
+        document.addEventListener('DOMContentLoaded', () => {
+            document.body.style.opacity = '0';
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 0.5s ease';
+                document.body.style.opacity = '1';
+            }, 100);
         });
     </script>
 </body>
