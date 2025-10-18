@@ -611,6 +611,7 @@
                             <h4>Correo Electrónico</h4>
                             <a href="gabriel.ag@surguanajuato.tecnm.mx" target="_blank" rel="noopener">
                             Correo electrónico
+                            <a>
                         </div>
                     </div>
                     
@@ -620,6 +621,7 @@
                             <h4>Institución</h4>
                             <a href="surguanajuato.tecnm.mx" target="_blank" rel="noopener">
                             TecNM Sur de Guanajuato
+                            <a>
                         </div>
                     </div>
                     
