@@ -522,10 +522,10 @@
             <section id="acerca-de" class="content-section">
                 <h2 class="section-title">Acerca de</h2>
                 <p class="section-text">
-                    Soy <span class="highlight-text">Doctor en Sistemas Computacionales</span> con una especialización profunda en Inteligencia Artificial y más de [X años] de experiencia en investigación y desarrollo. Mi trabajo se enfoca en el avance del campo de la IA a través de investigación innovadora y aplicaciones prácticas que impacten positivamente en la sociedad.
+                    Soy <span class="highlight-text">Doctor en Sistemas Computacionales</span> con una especialización profunda en Inteligencia Artificial, Líder Académico e impulsor de educación superior de calidad; Gestor de Programas y Proyectos; Impulsor de Equipos de Alto Desempeño. Mi trabajo se enfoca en el avance del campo de la IA a través de investigación innovadora y aplicaciones prácticas que impacten positivamente en la sociedad; cuento con más de 7 años de experiencia en liderazgo del área académica de Instituciones de Educación Superior, con un amplio compromiso con educación de calidad; he gestionado e impulsado proyectos de investigación y equipamiento.
                 </p>
                 <p class="section-text">
-                    Mi expertise abarca <span class="highlight-text">aprendizaje profundo, redes neuronales, procesamiento de lenguaje natural, visión por computadora y sistemas inteligentes</span>. Tengo una pasión particular por desarrollar algoritmos eficientes y explicables que puedan ser implementados en entornos del mundo real.
+                    Mi expertise en Inteligencia Artificial abarca <span class="highlight-text">aprendizaje profundo, redes neuronales, procesamiento de lenguaje natural, visión por computadora y sistemas inteligentes</span>. Tengo una pasión particular por desarrollar algoritmos eficientes y explicables que puedan ser implementados en entornos del mundo real.
                 </p>
                 <p class="section-text">
                     Como académico y investigador, estoy comprometido con la excelencia en la educación superior, la mentoría de nuevos investigadores y la colaboración interdisciplinaria para abordar los desafíos más complejos de nuestro tiempo mediante la inteligencia artificial.
@@ -536,7 +536,7 @@
             <section id="investigacion" class="content-section">
                 <h2 class="section-title">Investigación</h2>
                 <p class="section-text">
-                    Mis líneas de investigación se centran en el desarrollo de <span class="highlight-text">sistemas de IA robustos, éticos y eficientes</span>. Trabajo en la intersección entre la teoría computacional avanzada y sus aplicaciones prácticas en diversos dominios.
+                    Mis líneas de investigación se centran en el desarrollo de <span class="highlight-text">Redes Neuronales Convolucionales de Aprendizaje Profundo</span>. Trabajo en la intersección entre la teoría computacional avanzada y sus aplicaciones prácticas en diversos dominios.
                 </p>
 
                 <div class="research-grid">
@@ -553,11 +553,6 @@
                     <div class="research-card">
                         <h3>🏥 IA Aplicada en Salud Digital</h3>
                         <p>Implementación de sistemas inteligentes para diagnóstico médico asistido, análisis de imágenes médicas y medicina personalizada usando técnicas avanzadas de ML.</p>
-                    </div>
-                    
-                    <div class="research-card">
-                        <h3>⚖️ Ética y Sesgo en IA</h3>
-                        <p>Investigación en la detección, mitigación y prevención de sesgos algorítmicos, así como el desarrollo de marcos éticos para el despliegue responsable de IA.</p>
                     </div>
                 </div>
             </section>
