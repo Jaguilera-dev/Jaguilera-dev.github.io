@@ -609,7 +609,7 @@
                         <span class="contact-icon">🏛️</span>
                         <div class="contact-info">
                             <h4>Institucion</h4>
-                            <a href="surguanajuato.tecnm.mx" target="_blank" rel="noopener">
+                            <a href="https://surguanajuato.tecnm.mx" target="_blank" rel="noopener">
                             TecNM Sur de Guanajuato
                             </a>
                         </div>
@@ -619,8 +619,8 @@
                         <span class="contact-icon">📧</span>
                         <div class="contact-info">
                             <h4>Correo electrónico</h4>
-                            <a href="gabriel.ag@surguanajuato.tecnm.mx" target="_blank" rel="noopener">
-                            Correo Electrónico
+                            <a ref="mailto:gabriel.ag@surguanajuato.tecnm.mx" class="email-link"> 
+                            gabriel.ag@surguanajuato.tecnm.mx
                             </a>
                         </div>
                     </div>
