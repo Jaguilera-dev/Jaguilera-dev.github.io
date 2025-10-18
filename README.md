@@ -552,7 +552,7 @@
                     
                     <div class="research-card">
                         <h3>🏥 IA Aplicada en Salud Digital</h3>
-                        <p>Implementación de sistemas inteligentes para diagnóstico médico asistido, análisis de imágenes médicas y medicina personalizada usando técnicas avanzadas de ML.</p>
+                        <p>Análisis de imágenes médicas y medicina personalizada usando técnicas avanzadas de ML.</p>
                     </div>
                 </div>
             </section>
@@ -609,7 +609,7 @@
                         <span class="contact-icon">📧</span>
                         <div class="contact-info">
                             <h4>Correo Electrónico</h4>
-                            <p>[gabriel.ag@surguanajuato.tecnm.mx]</p>
+                            <p>gabriel.ag@surguanajuato.tecnm.mx</p>
                         </div>
                     </div>
                     
