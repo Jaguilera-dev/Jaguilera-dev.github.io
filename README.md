@@ -609,7 +609,8 @@
                         <span class="contact-icon">📧</span>
                         <div class="contact-info">
                             <h4>Correo Electrónico</h4>
-                            <p>gabriel.ag@surguanajuato.tecnm.mx</p>
+                            <a href="gabriel.ag@surguanajuato.tecnm.mx" target="_blank" rel="noopener">
+                            Correo electrónico
                         </div>
                     </div>
                     
@@ -617,7 +618,8 @@
                         <span class="contact-icon">🏛️</span>
                         <div class="contact-info">
                             <h4>Institución</h4>
-                            <p>Tecnológico Nacional de México<br>Instituto Tecnológico Superior del Sur de Guanajuato</p>
+                            <a href="surguanajuato.tecnm.mx" target="_blank" rel="noopener">
+                            TecNM Sur de Guanajuato
                         </div>
                     </div>
                     
@@ -626,7 +628,6 @@
                         <span class="contact-icon">🔗</span>
                         <div class="contact-info">
                             <h4>ORCID</h4>
-                            <p>https://orcid.org/0000-0002-4160-448X</p>
                             <a href="https://orcid.org/0000-0002-4160-448X" target="_blank" rel="noopener">
                             ORCID: 0000-0002-4160-448X
                             </a>
@@ -637,7 +638,9 @@
                         <span class="contact-icon">💼</span>
                         <div class="contact-info">
                             <h4>LinkedIn Académico</h4>
-                            <p>www.linkedin.com/in/gabriel-aguilera-3969a1183</p>
+                             <a href="www.linkedin.com/in/gabriel-aguilera-3969a1183" target="_blank" rel="noopener">
+                            LinkedIn
+                            </a>
                         </div>
                     </div>
                     
