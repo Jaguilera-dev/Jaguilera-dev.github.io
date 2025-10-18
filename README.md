@@ -701,7 +701,7 @@
     <header class="header" id="header">
         <div class="container">
             <div class="header-content">
-                <a href="#home" class="logo">Tu Nombre</a>
+                <a href="#home" class="logo">Gabriel Aguilera, PhD</a>
                 <nav>
                     <ul class="nav-menu">
                         <li><a href="#home" class="nav-link">Inicio</a></li>
@@ -724,11 +724,13 @@
         <div class="container">
             <div class="fade-in">
                 <img src="https://placehold.co/400x400/4A90E2/ffffff?text=Tu+Foto" alt="Tu Nombre" class="profile-img">
-                <h1>Tu Nombre Completo</h1>
-                <p class="subtitle">Desarrollador Full Stack</p>
+                <h1>Dr. José Gabriel Aguilera González</h1>
+                <p class="subtitle">Doctor en Sistemas Computacionales</p>
                 <p class="description">
-                    Soy un desarrollador apasionado por crear soluciones innovadoras y experiencias digitales excepcionales. 
-                    Especializado en tecnologías web modernas con más de 5 años de experiencia en el desarrollo de aplicaciones escalables.
+                    Soy Ingeniero en Comunicaciones y Electrónica, con Maestría en Ingeniería Eléctrica y Doctorado en Sistemas Computacionales.
+                    Especializado en Inteligencia Artificial, desarrollando proyectos con Redes Neuronales Artificiales, Redes Neuronales Concolucionales de Aprendizaje Profundo, Desarrollo Electrónico.
+                    Cuento con amplia experiencia en el sector educativo, en la gesti{on y organización de equipos de alto desempeño; comprometido con la excelencia educativa de las instituciones en las que me desarrollo, pero también con la mejora contínua de la Educación Superior del País.
+                    
                 </p>
                 <div class="cta-buttons">
                     <a href="#projects" class="btn btn-primary">
