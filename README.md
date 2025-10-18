@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
         }
 
         :root {
-            --primary-color: #4A90E2;
+            --rimary-color: #4A90E2;
             --primary-dark: #357ABD;
             --secondary-color: #6C757D;
             --accent-color: #17A2B8;
