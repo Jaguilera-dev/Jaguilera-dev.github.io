@@ -604,7 +604,15 @@
                     Estoy abierto a colaboraciones en proyectos de investigación, consultoría académica, participación en conferencias y oportunidades de mentoría. No dudes en contactarme para discutir posibles colaboraciones o intercambio académico.
                 </p>
 
-              
+                  <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div class="contact-info">
+                            <h4>Correo electrónico</h4>
+                            <a href="gabriel.ag@surguanajuato.tecn.mx" target="_blank" rel="noopener">
+                            Correo Electrónico
+                            </a>
+                        </div>
+                    </div>
                     
                     
                     <div class="contact-item">
