@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. José Gabriel Aguilera González - Especialista en Inteligencia Artificial</title>
-    <meta name="description" content="Portfolio profesional del Dr. Gabriel Aguilera, Doctor en Sistemas Computacionales especializado en Inteligencia Artificial">
+    <meta name="description" content="Portafolio profesional del Dr. Gabriel Aguilera, Doctor en Sistemas Computacionales especializado en Inteligencia Artificial">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
@@ -479,7 +479,7 @@
     <!-- Sidebar -->
     <nav class="sidebar" id="sidebar">
         <div class="profile-section">
-            <img src="Foto.png" alt="Foto de perfil profesional" class="profile-photo">
+        <img src="https://drive.google.com/uc?export=view&id=1CLFKgSMF8CJlpwOMSRQwVCFLxANtmY4l" alt="Dr. José Gabriel Aguilera González" class="profile-photo"
             <h1 class="profile-name">Dr. José Gabriel Aguilera González</h1>
             <p class="profile-title">Doctor en Sistemas Computacionales</p>
             <p class="profile-subtitle">Especialista en Inteligencia Artificial</p>
