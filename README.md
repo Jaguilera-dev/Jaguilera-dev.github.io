@@ -479,7 +479,7 @@
     <!-- Sidebar -->
     <nav class="sidebar" id="sidebar">
         <div class="profile-section">
-            <img src="https://drive.google.com/file/d/1FBwjns2G7dq7vPT45x7XzRAGhFBnG6Py/view?usp=sharing" alt="Foto de perfil profesional" class="profile-photo">
+            <img src="https://drive.google.com/file/d/1lOYj8xsRIqhied5635yV2SFIjxcPRoFK/view?usp=sharing" alt="Foto de perfil profesional" class="profile-photo">
             <h1 class="profile-name">Dr. José Gabriel Aguilera González</h1>
             <p class="profile-title">Doctor en Sistemas Computacionales</p>
             <p class="profile-subtitle">Especialista en Inteligencia Artificial</p>
