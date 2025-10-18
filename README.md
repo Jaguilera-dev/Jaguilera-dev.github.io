@@ -609,7 +609,7 @@
                         <span class="contact-icon">📧</span>
                         <div class="contact-info">
                             <h4>Correo Electrónico</h4>
-                            <p>[tu.email@universidad.edu]</p>
+                            <p>[gabriel.ag@surguanajuato.tecnm.mx]</p>
                         </div>
                     </div>
                     
@@ -617,23 +617,16 @@
                         <span class="contact-icon">🏛️</span>
                         <div class="contact-info">
                             <h4>Institución</h4>
-                            <p>[Universidad/Centro de Investigación]<br>Departamento de [Tu Departamento]</p>
+                            <p>Tecnológico Nacional de México<br>Instituto Tecnológico Superior del Sur de Guanajuato</p>
                         </div>
                     </div>
                     
-                    <div class="contact-item">
-                        <span class="contact-icon">📖</span>
-                        <div class="contact-info">
-                            <h4>ResearchGate</h4>
-                            <p>researchgate.net/profile/[tu-perfil]</p>
-                        </div>
-                    </div>
                     
                     <div class="contact-item">
                         <span class="contact-icon">🔗</span>
                         <div class="contact-info">
                             <h4>ORCID</h4>
-                            <p>orcid.org/[tu-orcid-id]</p>
+                            <p>https://orcid.org/0000-0002-4160-448X</p>
                         </div>
                     </div>
                     
@@ -641,7 +634,7 @@
                         <span class="contact-icon">💼</span>
                         <div class="contact-info">
                             <h4>LinkedIn Académico</h4>
-                            <p>linkedin.com/in/[tu-perfil-academico]</p>
+                            <p>www.linkedin.com/in/gabriel-aguilera-3969a1183</p>
                         </div>
                     </div>
                     
@@ -649,7 +642,7 @@
                         <span class="contact-icon">📍</span>
                         <div class="contact-info">
                             <h4>Ubicación</h4>
-                            <p>[Ciudad, País]<br>Oficina: [Número de oficina]</p>
+                            <p>Uriangato, Gto.<br>Oficina: 445 457 7468 + 106</p>
                         </div>
                     </div>
                 </div>
