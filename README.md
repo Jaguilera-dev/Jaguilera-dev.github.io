@@ -619,12 +619,11 @@
                         <span class="contact-icon">📧</span>
                         <div class="contact-info">
                             <h4>Correo electrónico</h4>
-                            <a ref="mailto:gabriel.ag@surguanajuato.tecnm.mx" class="email-link" target="_blank" rel="noopener">
+                            <a href="mailto:gabriel.ag@surguanajuato.tecnm.mx" class="email"> <i class="bx bx-mail-send" > </i>
                             gabriel.ag@surguanajuato.tecnm.mx
                             </a>
                         </div>
                     </div>
-                    
                     
                     <div class="contact-item">
                         <span class="contact-icon">🔗</span>
