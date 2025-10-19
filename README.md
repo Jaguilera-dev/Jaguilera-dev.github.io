@@ -528,7 +528,7 @@
                     Mi expertise en Inteligencia Artificial abarca <span class="highlight-text">aprendizaje profundo, redes neuronales, procesamiento de lenguaje natural, visión por computadora y sistemas inteligentes</span>. Tengo una pasión particular por desarrollar algoritmos eficientes y explicables que puedan ser implementados en entornos del mundo real.
                 </p>
                 <p class="section-text">
-                    Como académico y investigador, estoy comprometido con la excelencia en la educación superior, la mentoría de nuevos investigadores y la colaboración interdisciplinaria para abordar los desafíos más complejos de nuestro tiempo mediante la inteligencia artificial.
+                    Como académico e investigador, estoy comprometido con la excelencia en la educación superior, la mentoría de nuevos investigadores y la colaboración interdisciplinaria para abordar los desafíos más complejos de nuestro tiempo mediante la inteligencia artificial.
                 </p>
             </section>
 
@@ -619,7 +619,7 @@
                         <span class="contact-icon">📧</span>
                         <div class="contact-info">
                             <h4>Correo electrónico</h4>
-                            <a ref="mailto:gabriel.ag@surguanajuato.tecnm.mx" class="email-link">  target="_blank" rel="noopener">
+                            <a ref="mailto:gabriel.ag@surguanajuato.tecnm.mx" class="email-link" target="_blank" rel="noopener">
                             gabriel.ag@surguanajuato.tecnm.mx
                             </a>
                         </div>
