@@ -482,7 +482,7 @@
         <img src="https://jaguilera-dev.github.io/IMG_20251020_101908~2.jpg" alt="Dr. Gabriel Aguilera" class="profile-photo"/>
             <h1 class="profile-name">Dr. José Gabriel Aguilera González</h1>
             <p class="profile-title">Doctor en Sistemas Computacionales</p>
-            <p class="profile-subtitle">Especialista en Inteligencia Artificial</p>
+            <p class="profile-subtitle">Área de Investigación en Inteligencia Artificial</p>
             <p class="profile-subtitle">Líder Académico e Impulsor de la Calidad en la Educación Superior</p>
             <p class="profile-subtitle">Gestor de Programas y Proyectos</p>
         </div>
@@ -639,7 +639,7 @@
                         <span class="contact-icon">💼</span>
                         <div class="contact-info">
                             <h4>LinkedIn Académico</h4>
-                             <a href="www.linkedin.com/in/gabriel-aguilera-3969a1183" target="_blank" rel="noopener">
+                             <a href="https://www.linkedin.com/in/gabriel-aguilera-3969a1183" target="_blank" rel="noopener">
                             LinkedIn
                             </a>
                         </div>
