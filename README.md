@@ -479,7 +479,7 @@
     <!-- Sidebar -->
     <nav class="sidebar" id="sidebar">
         <div class="profile-section">
-        <img src="h/IMG_20251020_101908~2.jpg" alt="Dr. José Gabriel Aguilera González" class="profile-photo"
+        <img src="https://jaguilera-dev.github.io/IMG_20251020_101908~2.jpg" alt="Dr. Gabriel Aguilera" class="profile-photo"/>
             <h1 class="profile-name">Dr. José Gabriel Aguilera González</h1>
             <p class="profile-title">Doctor en Sistemas Computacionales</p>
             <p class="profile-subtitle">Especialista en Inteligencia Artificial</p>
