@@ -522,7 +522,7 @@
             <section id="acerca-de" class="content-section">
                 <h2 class="section-title">Acerca de</h2>
                 <p class="section-text">
-                    Soy <span class="highlight-text">Doctor en Sistemas Computacionales</span> con una especialización profunda en Inteligencia Artificial, Líder Académico e impulsor de educación superior de calidad; Gestor de Programas y Proyectos; Impulsor de Equipos de Alto Desempeño. Mi trabajo se enfoca en el avance del campo de la IA a través de investigación innovadora y aplicaciones prácticas que impacten positivamente en la sociedad; cuento con más de 7 años de experiencia en liderazgo del área académica de Instituciones de Educación Superior, con un amplio compromiso con educación de calidad; he gestionado e impulsado proyectos de investigación y equipamiento.
+                    Soy <span class="highlight-text">Doctor en Sistemas Computacionales</span> con área de investigación en Inteligencia Artificial; Líder Académico e impulsor de educación superior de calidad; Gestor de Programas y Proyectos; Impulsor de Equipos de Alto Desempeño. Mi trabajo se enfoca en el avance del campo de la IA a través de investigación innovadora y aplicaciones prácticas que impacten positivamente en la sociedad; cuento con más de 7 años de experiencia en liderazgo del área académica de Instituciones de Educación Superior, con un amplio compromiso con educación de calidad; he gestionado e impulsado proyectos de investigación y equipamiento.
                 </p>
                 <p class="section-text">
                     Mi expertise en Inteligencia Artificial abarca <span class="highlight-text">aprendizaje profundo, redes neuronales, procesamiento de lenguaje natural, visión por computadora y sistemas inteligentes</span>. Tengo una pasión particular por desarrollar algoritmos eficientes y explicables que puedan ser implementados en entornos del mundo real.
@@ -595,6 +595,32 @@
                         <div class="publication-details">ACM Computing Surveys, Vol. 55, No. 2, Article 37, 2022</div>
                     </li>
                 </ul>
+            </section>
+
+
+             <!-- Software Section -->
+            <section id="Software" class="content-section">
+                <h2 class="section-title">Software</h2>
+                <p class="section-text">
+                    A continuación se presenta el software desarrollado para su uso libre con fines educativos o de investigación.
+                </p>
+
+                <div class="research-grid">
+                    <div class="research-card">
+                        <h3> Laboratorio Virtual de Filtrado Digital</h3>
+                        <p>Este software simula los distintos tipos de filtros aplicados a señales generadas del tipo sinusoidal.</p>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3>🔍 Análisis forense de firmas autógrafas/h3>
+                        <p>Software que analiza las principales características de una firma offline, otorgando un resultado de veracidad o falsedad de la firma analizada, un apoyo para los peritos en análisis de firmas</p>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3> Recortador de imágenes multiespectrales</h3>
+                        <p>"Cropper" es un software que te permite recortar imágenes multiespectrales de 3 capas de forma automática o manual, lo que te permitirá ahorrar tiempo en el proceso de obtención de recortes para el procesamiento de imágenes multiespectrales.</p>
+                    </div>
+                </div>
             </section>
 
             <!-- Contacto Section -->
