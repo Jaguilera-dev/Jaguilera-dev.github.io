@@ -612,7 +612,7 @@
                     </div>
                     
                     <div class="research-card">
-                        <h3>🔍 Análisis forense de firmas autógrafas/h3>
+                        <h3>🔍 Análisis forense de firmas autógrafas</h3>
                         <p>Software que analiza las principales características de una firma offline, otorgando un resultado de veracidad o falsedad de la firma analizada, un apoyo para los peritos en análisis de firmas</p>
                     </div>
                     
