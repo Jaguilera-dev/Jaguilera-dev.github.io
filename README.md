@@ -524,7 +524,7 @@
             <section id="acerca-de" class="content-section">
                 <h2 class="section-title">Acerca de</h2>
                 <p class="section-text">
-                    Soy <span class="highlight-text">Doctor en Sistemas Computacionales</span> con área de investigación en Inteligencia Artificial; Líder Académico e impulsor de educación superior de calidad; Gestor de Programas y Proyectos; Impulsor de Equipos de Alto Desempeño. Mi trabajo se enfoca en el avance del campo de la IA a través de investigación innovadora y aplicaciones prácticas que impacten positivamente en la sociedad; cuento con más de 7 años de experiencia en liderazgo del área académica de Instituciones de Educación Superior, con un amplio compromiso con educación de calidad; he gestionado e impulsado proyectos de investigación y equipamiento.
+                    Soy <span class="highlight-text">Ingeniero en Comunicaciones y Electrónica, Maestro en Ingeniería Eléctrica y Doctor en Sistemas Computacionales</span> con área de investigación en Inteligencia Artificial; Líder Académico e impulsor de educación superior de calidad; Gestor de Programas y Proyectos; Impulsor de Equipos de Alto Desempeño. Mi trabajo se enfoca en el avance del campo de la IA a través de investigación innovadora y aplicaciones prácticas que impacten positivamente en la sociedad; cuento con más de 7 años de experiencia en liderazgo del área académica de Instituciones de Educación Superior, con un amplio compromiso con educación de calidad; he gestionado e impulsado proyectos de investigación y equipamiento.
                 </p>
                 <p class="section-text">
                     Mi expertise en Inteligencia Artificial abarca <span class="highlight-text">aprendizaje profundo, redes neuronales, procesamiento de lenguaje natural, visión por computadora y sistemas inteligentes</span>. Tengo una pasión particular por desarrollar algoritmos eficientes y explicables que puedan ser implementados en entornos del mundo real.
@@ -568,34 +568,11 @@
 
                 <ul class="publications-list">
                     <li class="publication-item">
-                        <div class="publication-title">Adaptive Neural Architectures for Edge Computing in Healthcare Applications</div>
+                        <div class="publication-title">Under construction...</div>
                         <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador A., Dr. Colaborador B.</div>
                         <div class="publication-details">IEEE Transactions on Artificial Intelligence, Vol. 4, No. 3, pp. 245-260, 2023</div>
                     </li>
                     
-                    <li class="publication-item">
-                        <div class="publication-title">Explainable AI Framework for Medical Decision Support Systems</div>
-                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador C., Dr. Colaborador D.</div>
-                        <div class="publication-details">Nature Machine Intelligence, Vol. 5, pp. 123-138, 2023</div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <div class="publication-title">Bias Mitigation Strategies in Large Language Models: A Comprehensive Survey</div>
-                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador E.</div>
-                        <div class="publication-details">Journal of Machine Learning Research, Vol. 24, pp. 1-45, 2023</div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <div class="publication-title">Reinforcement Learning for Autonomous Medical Diagnosis: Challenges and Opportunities</div>
-                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador F., Dr. Colaborador G.</div>
-                        <div class="publication-details">Proceedings of AAAI Conference on Artificial Intelligence, pp. 8756-8763, 2022</div>
-                    </li>
-                    
-                    <li class="publication-item">
-                        <div class="publication-title">Federated Learning in Healthcare: Privacy-Preserving Collaborative AI</div>
-                        <div class="publication-authors">Dr. [Tu Nombre], Dr. Colaborador H.</div>
-                        <div class="publication-details">ACM Computing Surveys, Vol. 55, No. 2, Article 37, 2022</div>
-                    </li>
                 </ul>
             </section>
 
