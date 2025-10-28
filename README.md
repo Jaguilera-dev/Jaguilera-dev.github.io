@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -470,6 +471,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Mobile Menu Toggle -->
     <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
@@ -617,7 +619,8 @@
                     </div>
                     
                     <div class="research-card">
-                        <h3> Recortador de imágenes multiespectrales</h3>
+                        <h3> Recortador de imágenes multiespectrales</h3> 
+                        <a href="https://github.com/Jaguilera-dev/cropper" target="_blank" rel="noopener"> Cropper
                         <p>"Cropper" es un software que te permite recortar imágenes multiespectrales de 3 capas de forma automática o manual, lo que te permitirá ahorrar tiempo en el proceso de obtención de recortes para el procesamiento de imágenes multiespectrales.</p>
                     </div>
                 </div>
